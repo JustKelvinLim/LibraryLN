@@ -7,7 +7,7 @@
   </div>
   <div class="card-body">
     <div class="table-responsive">
-    <a href="<?php echo base_url('index.php/admin/tambah_us')?>" class="btn btn-success btn-icon-split">
+    <a href="<?php echo base_url('index.php/user/tambah_us')?>" class="btn btn-success btn-icon-split">
                     <span class="icon text-white-50">
                       <i class="fas fa-plus"></i>
                     </span>
@@ -37,13 +37,13 @@
              <td><?= $a->jk?></td>
              <td><?= $a->level?></td>
               <td>
-             <a href="<?php echo base_url ('index.php/admin/edit_us/'.$a->id_user)?>" 
+             <a href="<?php echo base_url ('index.php/user/edit_us/'.$a->id_user)?>" 
              class="btn btn-primary btn-icon-split"><span class="icon text-white-50">
                       <i class="fas fa-edit"></i>
                     </span>
                     <span class="text">Edit</span>
                   </a></a>
-            <a href="<?php echo base_url ('index.php/admin/hapus_us/'.$a->id_user)?>"
+            <a href="<?php echo base_url ('index.php/user/hapus_us/'.$a->id_user)?>"
              class="btn btn-danger btn-icon-split"><span class="icon text-white-50">
                       <i class="fas fa-trash"></i>
                     </span>
